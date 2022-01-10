@@ -1,4 +1,4 @@
-module grpc3
+module github.com/serdyanuk/grpc-example
 
 go 1.17
 

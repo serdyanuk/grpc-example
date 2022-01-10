@@ -3,10 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"grpc3/pb"
 	"log"
 	"net"
 	"time"
+
+	"github.com/serdyanuk/grpc-example/pb"
 
 	"github.com/google/uuid"
 	"google.golang.org/grpc"

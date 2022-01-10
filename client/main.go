@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"grpc3/pb"
 	"log"
 	"time"
+
+	"github.com/serdyanuk/grpc-example/pb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
